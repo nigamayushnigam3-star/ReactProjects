@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  bax-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html,
+body{
+  background-color: rgba(0, 0, 0, 0.356);
+  height: 100%;
+  width: 100%;
+}

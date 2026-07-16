@@ -1,0 +1,5 @@
+*Tailwind = go to the tailwind website  => go to get start => if you does not create a folder then run npm create vite@latest my-project
+cd my-project after that run this npm install tailwindcss @tailwindcss/vite then add this one only in vite.config.js import tailwindcss from '@tailwindcss/vite'.
+after thet tailwindcss() paste this function after the react()in plugins:... after that @import "tailwindcss" on index.css
+* install some extensions for taileind if you dose not classes .
+* function call in react must study 

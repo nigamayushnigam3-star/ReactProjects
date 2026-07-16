@@ -1,0 +1,8 @@
+*folder create -  npm create vite
+*<div className> - in react we always use className bcoz class ia an keywod
+* index.css globally hr app pe applicable hota h through the main.jsx and app.css sirf particular apps ke liye hota h . 
+* hm jyada se jyada try krte h apne app.jsx ke function ko khali rkhna quki usii se sb kuch hona h esiliye hm ek folder bnate h components naam se vhi pe sb apna components store krte h .
+* card kha pe h component ke under card h toh at the time of import , hm import './component/card' ess tarike se krte h ..
+* All variable type values are write in {variable values} 
+* <abcd/> for functions rendering .
+* agr basically hm ye chahe ki sbhi div ke contents me alag alag values jaye toh uske liye hm props ka use krte h .

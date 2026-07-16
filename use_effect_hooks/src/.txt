@@ -1,0 +1,14 @@
+* math.random() => its a function o generate some random values.
+*the process of useeffect is said to be mounting.
+
+*useEffect is a Hook that lets you perform side effects in a component.
+import { useEffect } from "react";
+
+useEffect(() => {
+  console.log("Component rendered");
+}, []);
+[]=> its a empty array dependecy , eska mtlb ye h ki jitna bhi state change ho console pe value change nhi hoti h.
+
+* onMouseEnter and onMouseLeave are to important events based of hover .  
+
+* we can able to add multiple useEffect..... 

@@ -1,0 +1,9 @@
+*here we studied about props .
+*unsplash website is best or pictures.
+*props helps to change the information on each cards.
+*Data flow always from top to bottom.
+*the data will be transfered from app to card not from card to app.
+*<div className='parent'></div> => Here className is an attribute and parent is an value.
+*props are just a property of any function which will passed as an argument from <user/> here as <user name="ayush" ,age="{21}"/>. nubers must be in curlybraces .
+* remove react strickt mode to avoid repeatness  
+*pintrest design  web 

@@ -1,0 +1,7 @@
+for dark background => bg-black h-screen;
+
+*use lorem pixem web for api.
+*API se jo data hme milta h vo json format me milta h .
+JSON -> Its just a array of object.  i.e [{},{},{}] ..... java script object notation.
+internet pe jo bhi data frontend se backend ki trf jo move krta h vo do format me hota h JSON ya XML .
+*A software called as POSTMAN where we see the fuil working of api...

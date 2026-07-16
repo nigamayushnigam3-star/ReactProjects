@@ -1,0 +1,46 @@
+# SOME IMPORTANT POINTS 
+1- IN CHANGE FUNCTION THEIR ARE TWO THINGS :
+setNum()and other are console.log , they both work asynchronously 
+if you see the cosole the value of console,log was print first the setNum function will run .
+2- Same value if you assign after useState then no values will be change .
+* arrays and objects are refrence variables .   
+
+#Destructuing process ye hota h ki jbbbhi hm array ko ya object ko memory me locate krte h toh vo direct locate nhi ho jata kisi bhi specific postion pe balki vo khi or kisi jagah jake store hota h or fr uska refrence use kiya jata h memory me ...
+esiliye jbbhi hme array ko ya objects pe usestate lagana hota h tb hm phle usse kisi or variable me store krte h as a refrence .
+
+const  App = () =>{
+const [num , setNum] = useState({user:'ayush',age:20})
+
+const btnClicked = ()=>{
+  //  destructuring process 
+  const newNum = {...num};
+  newNum.user = 'golu'
+  newNum.age = '21'
+  setNum(newNum)
+}
+return(
+  <div>
+   <h1>{num.user},{num.age}</h1>
+   <button onClick={btnClicked}>click me</button>
+
+  </div>
+)
+}
+
+*for arrays
+
+const  App = () =>{
+const [num , setNum] = useState([10,20,30,40]),
+
+const btnClicked = ()=>{
+  //destructuring process 
+  const newNum = [...num];
+  newNum.push(99)
+  setNum(newNum)
+}
+return(
+  <div>
+   <h1>{num}</h1>
+   <button onClick={btnClicked}>click me</button>
+
+  </div>)}

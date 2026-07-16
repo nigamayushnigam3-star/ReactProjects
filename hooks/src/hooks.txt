@@ -1,0 +1,4 @@
+*before return line type hookssni  pit :-
+const[num,setNum]=useState(10) 
+Here the value of num is 10 and for changing this value we use setNum.
+num is only for read and setNum is for write.

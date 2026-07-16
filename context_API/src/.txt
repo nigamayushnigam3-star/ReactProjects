@@ -1,0 +1,7 @@
+# WHEEN I USE CONTEXT API , THEN DATA WILL BE CENTRALISED.....
+# There are three things -> CONTEXT
+                         -> PROVIDER 
+                         -> USE CONTEXT 
+###########################################
+
+# Context is just like a global variable...  

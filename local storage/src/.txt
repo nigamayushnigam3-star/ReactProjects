@@ -1,0 +1,20 @@
+*local storage is said to be the memory of your browser ..
+*goes on just after the console , an application section in terminal.
+*Their are two types of storage local storage and session storgae , local 
+ storage is for storing small amount of datas and session storage is for storing
+temporary datas,i.e your data will be stored until when you are active on that browseer.
+*To clear the local storage use localStorage.clear() for session - session.clear()..
+*For store the data => localStorage.setItem('key','value')..
+*For fetching the data from localStorage  =>  localStorage.getItems('user')..
+*For remove the item from localstorage=>localStorage.removeItem('key')........
+
+
+# For array and objects =>
+HERE A PROBLEM WHILE ADDING OBJECT OR ARRAY IN LOCAL STORAGE =>
+local storage value string ke form me store krti h OR
+array me ya objects me value arry ya object ke form me hoti h esiily 
+hm values ko JSON.stringify method se string mr convt krte h ..
+for further convert into object JSON.parse()..
+
+
+ 

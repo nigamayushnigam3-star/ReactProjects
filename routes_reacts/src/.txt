@@ -1,0 +1,78 @@
+* IN react their are no any inbuilt routing....
+
+*For Routing in react We will use react router dom...
+
+# For install npm i react-router-dom......
+
+#BROSER ROUTER IS BEST FOR CLIENT-SIDE RENDERING.
+#HASH ROUTER & MEMORY ROUTER ...
+
+
+
+#################################
+By serians ->>>>
+
+
+import { Routes, Route, Link } from 'react-router-dom'
+import Home from './pages/home'
+import About from './pages/about'
+import Contact from './pages/contact'
+
+function App() {
+
+
+  return (
+    <>
+    <div className='nav' >
+    <h3>AYUSH</h3>
+    <div >
+      {/*<a href="/">Home</a> 
+      <a href="/about">About</a> 
+      <a href="#">course</a> 
+      <a href="/contact">Contact US </a> */}
+      <Link to = '/'>Home</Link> {/* This Link tag prevent from reloading and ensure single page application */}
+      <Link to = '/about' >About</Link>
+      <Link to = '/contact' >Contact</Link>
+    </div>
+    </div>
+
+       <Routes>
+
+       <Route path='/' element= {<Home/> } />
+        <Route path='/about' element= {<About/>} />
+        <Route path='/contact' element= {<Contact/>} />
+        
+       </Routes>
+
+
+
+    </>
+  )
+}
+
+export default App
+
+
+
+################################
+
+Most Important ->> hm anchor tag use nhi krte quki uske chalte hmara page pura reload hota h jo
+nhi hona chahiye esiliye uske place pe hm Link tag ka use krta h .......
+
+$$ 2 chij hota h Link and NavLink .. NavLink or jyada functionality proivie krta h ...
+
+
+###################################
+
+#################################
+
+In advance routing we will study ->>>
+ 
+nested setup
+dynamic Routes
+usenavigate
+404
+
+#################################   
+
+
